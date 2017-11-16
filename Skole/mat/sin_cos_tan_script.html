@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pythagoras, Sin, Cos og Tan</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script>var A = prompt("Hvor mange grader er A?   (Hvis den ingen verdi har skriver du bare 0)");
+var B = prompt("Hvor mange grader er B?   (Hvis den ingen verdi har skriver du bare 0)");
+var C = prompt("Hvor mange grader er C?   (Hvis den ingen verdi har skriver du bare 0)");
+var la = prompt("Hvor lang er a?   (Hvis den ingen verdi har skriver du bare 0)");
+var lb = prompt("Hvor lang er b?   (Hvis den ingen verdi har skriver du bare 0)");
+var lc = prompt("Hvor lang er c?   (Hvis den ingen verdi har skriver du bare 0)");
+
+/** Dette er til at regne A **/
+
+var adivc1 = la / lc;
+var adivc2 = Math.asin(adivc1);
+var adivc3 = 57.29577951 * adivc2;
+
+var bdivc1 = lb / lc;
+var bdivc2 = Math.acos(bdivc1);
+var bdivc3 = 57.29577951 * bdivc2;
+      
+var adivb1 = la / lb;
+var adivb2 = Math.atan(adivb1);
+var adivb3 = 57.29577951 * adivb2;
+      
+document.write("A: " + adivc3 + ".");
+document.write("A: " + bdivc3 + ".");
+document.write("A: " + adivb3 + ".");
+    </script>
+    <br>
+    <script>
+      
+      /** Dette er til at regne B **/
+
+var adivc1_1 = la / lc;
+var adivc2_2 = Math.acos(adivc1_1);
+var adivc3_3 = 57.29577951 * adivc2_2;
+
+var bdivc1_1 = lb / lc;
+var bdivc2_2 = Math.asin(bdivc1_1);
+var bdivc3_3 = 57.29577951 * bdivc2_2;
+      
+var adivb1_1 = lb / la;
+var adivb2_2 = Math.atan(adivb1_1);
+var adivb3_3 = 57.29577951 * adivb2_2;
+      
+document.write("B: " + adivc3_3 + ".");
+document.write("B: " + bdivc3_3 + ".");
+document.write("B: " + adivb3_3 + ".");
+    </script>
+  </body>
+  <footer>
+    <p>NaN står for <i>not a number</i> hvilket vil sige, at parablen ikke har nogle røder.</p>
+    <p>Lavet af: Marc Nygaard.</p>
+    <a href="/Skole/mat.html">
+      <h4>Tilbage</h4>
+    </a>
+  </footer>
+</html>
