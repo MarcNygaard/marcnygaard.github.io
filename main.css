@@ -1,161 +1,90 @@
-/** Her er skrifttypen. **/
+/** Her er skrifttypen **/
 
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Roboto', sans-serif;
 }
 
-/** Her er style for header. **/
 
-header {
-  background-color: #363636;
-  padding: 1px 0 1px 0;
-  border-style: solid;
-  border-color: #696969;
-  border-bottom-width: 5px;
+/** Style for navigationsbaren **/
+
+nav ul li {
+  display: inline;
+  float: left;
+  margin: 10px;
+  font-size: 0.8em;
 }
 
-#info {
-  text-align: center;
-  margin: 25px;
-  color: #ffffff;
+nav ul {
+  margin-right: 5%;
+  margin-top: 10px;
+  float: right;
 }
 
-/** Dette fjerner strejerne under links med mere.**/
+
+/** Dette fjerner strejerne under links med mere **/
 
 a {
   text-decoration: none;
 }
 
 a:visited {
-  color: #000000;
+  color: #767676;
 }
 
-/* Her er style for de forskellige cirkler. */
+a {
+  color: #767676;
+}
 
-.overskrift {
+
+/** Dette skaber den grønne linje i toppen af dokumentet **/
+
+body {
+  border-top: 6px;
+  border-top-color: #00cd66;
+  border-style: solid;
+}
+
+
+/** Dette er titlen på hjemmesiden, som står i toppen og til vensre i dokumentet "Informationssamling" **/
+
+header h1 {
+  float: left;
+  margin: 0;
+  display: inline;
+  width: 32%;
+  margin-left: 5%;
+  margin-top: 10px;
+  font-size: 2.5em;
+  color: #575757;
+}
+
+section {
   width: 100%;
   float: left;
-  margin-top: 75px; 
-  margin-left: 50px;
+  margin: 200px 7.5% 0 15%;
 }
 
-#programering {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
+h2 {
+  font-weight: 300; 
+  font-size: 2.25em;
 }
 
-#skole {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
+p {
+  color: #767676;
+  font-weight: 200;
+  margin: 10px 0 0 0;
 }
 
-div h1 {
-  margin: 0;
-  font-size: 30px;
-  text-align: center;
-  color: #ffffff;
-  padding-top: 44.5px;
-  padding-bottom: 44.5px;
-  border-radius: 100%;
+section {
+  width: auto;
 }
 
-div h1:hover {
-  font-size: 35px;
-  padding-top: 42px;
+#startup {
+  width: 40%;
+  height: 40%;
+  margin-top: 10px;
 }
 
-/** Programering cirkler. **/
-
-#html-div {
-  background-color: #1e90ff;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#css-div {
-  background-color: #1874cd;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#js-div {
-  background-color: #cd0000;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#php-div {
-  background-color: #ff7f00;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#py-div {
-  background-color: #ffd700;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#java-div {
-  background-color: #00cd66;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#dj-div {
-  background-color: #008b45;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-/** Skole cirkler. **/
-
-#mat-div {
-  background-color: #1e90ff;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#dan-div {
-  background-color: #cd0000;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
-}
-
-#eng-div {
-  background-color: #ffd700;
-  height: 125px;
-  width: 125px;
-  border-radius: 100%;
-  float: left;
-  margin: 16px;
+#css-basics {
+  margin-top: 125px;
 }
