@@ -101,5 +101,36 @@ h5 {
 }
 
 
-/** ... **/
+/** Her er style for den del som er historie om de forskellige sprog **/
 
+#historie {
+  width: 90%;
+  margin-left: 7.5%;
+  margin-top: 100px;
+}
+
+#html-historie {
+  width: 30%;
+  float: left;
+  font-weight: 100;
+}
+
+#css-historie {
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+  font-weight: 100;
+}
+
+#js-historie {
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+  font-weight: 100;
+}
+
+h6 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #20232A;
+}
