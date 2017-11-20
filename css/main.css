@@ -5,86 +5,101 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 
-/** Style for navigationsbaren **/
+/** Dette er baggrundsfarven, som man kan se i toppen af siden **/
+
+header {
+  background-color: #20232A;
+  width: 100%;
+  height: 60px;
+}
+
+
+/** Detter er overskrifen på hjemmesiden (Informationssamling) **/
+
+h1 {
+  color: #61DAFB;
+  padding-top: 12.5px;
+  padding-left: 40px;
+  float: left;
+  width: 60%;
+  font-size: 1.8em;
+}
+
+
+/** Her er navigationslinjen **/
 
 nav ul li {
-  display: inline;
   float: left;
   margin: 10px;
-  font-size: 0.8em;
+  list-style: none;
+  color: #ffffff;
+  margin-right: 30px;
 }
 
-nav ul {
-  margin-right: 5%;
-  margin-top: 10px;
-  float: right;
+nav ul a li:hover {
+  color: #61DAFB;
 }
-
-
-/** Dette fjerner strejerne under links med mere **/
 
 a {
   text-decoration: none;
 }
 
 a:visited {
-  color: #767676;
+  color: #ffffff;
 }
 
-a {
-  color: #767676;
-}
-
-
-/** Dette skaber den grønne linje i toppen af dokumentet **/
-
-body {
-  border-top: 6px;
-  border-top-color: #00cd66;
-  border-style: solid;
+h4 {
+  margin: 10px;
 }
 
 
-/** Dette er titlen på hjemmesiden, som står i toppen og til vensre i dokumentet "Informationssamling" **/
+/** Her er selve Kom igang siden **/
 
-header h1 {
-  float: left;
-  margin: 0;
-  display: inline;
-  width: 32%;
-  margin-left: 5%;
-  margin-top: 10px;
-  font-size: 2.5em;
-  color: #575757;
-}
-
-section {
+#komIGang {
   width: 100%;
-  float: left;
-  margin: 200px 7.5% 0 15%;
+  height: 335px;
+  background-color: #282C34;
 }
 
 h2 {
-  font-weight: 300; 
-  font-size: 2.25em;
-}
-
-p {
-  color: #767676;
-  font-weight: 200;
-  margin: 10px 0 0 0;
-}
-
-section {
+  font-weight: 900;
+  padding-top: 60px;
   width: auto;
+  margin: 0 33%;
+  font-size: 2.5em;
+  color: #61DAFB;
 }
 
-#startup {
-  width: 40%;
-  height: 40%;
-  margin-top: 10px;
+h3 {
+  font-weight: 300;
+  padding-top: 20px;
+  width: auto;
+  margin: 0 33%;
+  font-size: 1em;
+  color: #ffffff;
 }
 
-#css-basics {
-  margin-top: 125px;
+h5 {
+  font-weight: 300;
+  font-size: 1.4em;
+  color: #282C34;
+  float: left;
+  font-weight: 500;
+  padding: 11.5px 31.5px;
 }
+
+.knap {
+  background-color: #61DAFB;
+  width: 150px;
+  height: 50px;
+  margin-left: 42.5%;
+  margin-top: 40px;
+}
+
+.knap:hover {
+  background: #ffffff;
+}
+
+
+/** ... **/
+
