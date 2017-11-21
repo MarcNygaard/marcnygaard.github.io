@@ -137,3 +137,38 @@ h6 {
   margin-bottom: 20px;
   color: #20232A;
 }
+
+
+/** Her er footeren **/
+
+#footer {
+  color: #ffffff;
+  width: 100%;
+  height: 95px;
+  background-color: #20232A;
+  float: left;
+}
+
+#version {
+  width: 16%;
+  float: left;
+  margin-left: 43.5%;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#lavetDen {
+  width: 16%;
+  float: left;
+  margin-left: 30%;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#senestOpdateret {
+  width: 20%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
