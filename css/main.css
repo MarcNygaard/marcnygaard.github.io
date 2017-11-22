@@ -150,6 +150,7 @@ h6 {
   padding: 25px 0 0 50px;
   border-bottom-style: solid;
   border-top-right-radius: 25px;
+  
 }
 
 #version {
@@ -178,7 +179,7 @@ h6 {
 
 footer {
   position: relative;
-  bottom: -20px;
+  bottom: -115px;
 }
 
 /** Her er style for HTML, CSS og JS siderne **/
