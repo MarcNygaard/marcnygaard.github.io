@@ -143,10 +143,13 @@ h6 {
 
 #footer {
   color: #ffffff;
-  width: 100%;
-  height: 95px;
+  width: 34%;
+  height: 85px;
   background-color: #20232A;
   float: left;
+  padding: 25px 0 0 50px;
+  border-bottom-style: solid;
+  border-top-right-radius: 25px;
 }
 
 #version {
@@ -178,3 +181,444 @@ footer {
   bottom: -20px;
 }
 
+/** Her er style for HTML, CSS og JS siderne **/
+
+#HTML-alfabet {
+  width: 100%;
+  height: 295px;
+  background-color: #282C34;
+}
+
+#CSS-alfabet {
+  width: 100%;
+  height: 295px;
+  background-color: #282C34;
+}
+
+#JS-alfabet {
+  width: 100%;
+  height: 295px;
+  background-color: #282C34;
+}
+
+#overskrift-html {
+  padding-left: 150px; 
+}
+
+#overskrift-css {
+  padding-left: 160px; 
+}
+
+#overskrift-js {
+  padding-left: 107.5px; 
+}
+
+/** Her er alle bogstaverne i alfabetet **/
+
+#abc-a {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-b {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-c {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-d {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-e {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-f {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-g {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-h {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 27px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-i {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 16px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-j {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-k {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-l {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-m {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-n {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-o {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-p {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-q {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 27px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-r {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-s {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-t {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-u {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-v {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-w {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 34px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-x {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-y {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-z {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+
+/** Her er alle bogstaverne i alfabetet:hover **/
+
+#abc-a:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-b:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-c:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-d:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-e:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-f:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-g:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-h:hover {
+  color: #61DAFB;
+  width: 27px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-i:hover {
+  color: #61DAFB;
+  width: 16px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-j:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-k:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-l:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-m:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-n:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-o:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-p:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-q:hover {
+  color: #61DAFB;
+  width: 27px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-r:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-s:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-t:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-u:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-v:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-w:hover {
+  color: #61DAFB;
+  width: 34px;
+  float: left;
+  font-size: 2em;
+}
+
+#abc-x:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;;
+}
+
+#abc-y:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;;
+}
+
+#abc-z:hover {
+  color: #61DAFB;
+  width: 25px;
+  float: left;
+  font-size: 2em;
+}
+
+
+/** Her er style for de 2 rekker med alfabetet **/
+
+#abc1 {
+  float: left;
+  width: 100%;
+  margin-left: 36.15%;
+}
+
+#abc2 {
+  float: left;
+  width: 100%;
+  margin-left: 35.7575%;
+}
