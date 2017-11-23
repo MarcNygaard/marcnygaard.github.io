@@ -38,6 +38,7 @@ nav ul li {
 
 nav ul a li:hover {
   color: #61DAFB;
+  transition: 1s;
 }
 
 a {
@@ -98,6 +99,7 @@ h5 {
 
 .knap:hover {
   background: #ffffff;
+  transition: 1s;
 }
 
 
@@ -432,6 +434,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-b:hover {
@@ -439,6 +442,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-c:hover {
@@ -446,6 +450,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-d:hover {
@@ -453,6 +458,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-e:hover {
@@ -460,6 +466,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-f:hover {
@@ -467,6 +474,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-g:hover {
@@ -474,6 +482,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-h:hover {
@@ -481,6 +490,7 @@ footer {
   width: 27px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-i:hover {
@@ -488,6 +498,7 @@ footer {
   width: 16px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-j:hover {
@@ -495,6 +506,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-k:hover {
@@ -502,6 +514,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-l:hover {
@@ -509,6 +522,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-m:hover {
@@ -516,6 +530,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-n:hover {
@@ -523,6 +538,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-o:hover {
@@ -530,6 +546,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-p:hover {
@@ -537,6 +554,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-q:hover {
@@ -544,6 +562,7 @@ footer {
   width: 27px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-r:hover {
@@ -551,6 +570,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-s:hover {
@@ -558,6 +578,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-t:hover {
@@ -565,6 +586,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-u:hover {
@@ -572,6 +594,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-v:hover {
@@ -579,6 +602,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-w:hover {
@@ -586,20 +610,23 @@ footer {
   width: 34px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-x:hover {
   color: #61DAFB;
   width: 25px;
   float: left;
-  font-size: 2em;;
+  font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-y:hover {
   color: #61DAFB;
   width: 25px;
   float: left;
-  font-size: 2em;;
+  font-size: 2em;
+  transition: 0.75s;
 }
 
 #abc-z:hover {
@@ -607,6 +634,7 @@ footer {
   width: 25px;
   float: left;
   font-size: 2em;
+  transition: 0.75s;
 }
 
 
