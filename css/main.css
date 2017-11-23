@@ -106,7 +106,7 @@ h5 {
 /** Her er style for den del som er historie om de forskellige sprog **/
 
 #historie {
-  width: 90%;
+  width: 92%;
   margin-left: 7.5%;
   margin-top: 100px;
 }
@@ -151,8 +151,7 @@ h6 {
   float: left;
   padding: 25px 0 0 50px;
   border-bottom-style: solid;
-  border-top-right-radius: 25px;
-  
+  border-top-right-radius: 25px; 
 }
 
 #version {
