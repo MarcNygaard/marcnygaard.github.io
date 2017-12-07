@@ -650,3 +650,17 @@ footer {
   width: 100%;
   margin-left: 35.7575%;
 }
+
+
+/** Style for KomIGang **/
+
+#html-css-js h6 {
+  width: 30%;
+  float: left;
+  display: inline;
+}
+
+#KomIGang-Section {
+  margin-left: 7.5%;
+  margin-top: 75px;
+}
