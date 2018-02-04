@@ -13,7 +13,7 @@ h2 {
 p {
   color: #2D3037;
   margin-top: 17.5px;
-  width: 40%;
+  width: 85%;
 }
 
 /** Markere den side man er på i navigationsbaren **/
@@ -42,7 +42,7 @@ p {
     border: 2px solid #61DAFB;
     float: left;
     margin: 10px;
-    float: left;
+    float: right;
     background-color: #61DAFB;
 }
 
