@@ -6,15 +6,61 @@ section {
 /** Overskrift **/
 h2 {
   color: #20232A;
-  font-size: 3em;
+  font-size: 4.5em;
 }
 
 /** Brødtekst **/
 p {
   color: #2D3037;
+  margin-top: 17.5px;
+  width: 40%;
 }
 
 /** Markere den side man er på i navigationsbaren **/
 #OnPage {
   color: #61DAFB;
 }
+
+/** Download knap **/
+.button {
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button {
+    color: #20232A; 
+    border: 2px solid #61DAFB;
+    float: left;
+    margin: 10px;
+    float: left;
+    background-color: #61DAFB;
+}
+
+.button:hover {
+    color: white;
+}
+
+/** Titel på underemner **/
+.titel {
+  font-size: 2.5em;
+  color: #20232A;
+  margin: 30px 0 20px 10px;
+}
+
+/** Titel på underemner **/
+.under-titel {
+  font-size: 2em;
+  color: #20232A;
+  margin: 30px 0 5px 10px;
+}
+
