@@ -1,6 +1,7 @@
 /** Centrer section **/
 section {
   margin: 50px;
+  margin-left: 80px;
 }
 
 /** Overskrift **/
@@ -21,8 +22,8 @@ p {
   color: #61DAFB;
 }
 
-/** Download knap **/
-.button {
+/** Download Formelsamling knap **/
+.button-formelsamling {
     border: none;
     color: #FFFFFF;
     padding: 8px 16px;
@@ -37,16 +38,47 @@ p {
     border-radius: 10px;
 }
 
-.button {
+.button-formelsamling {
     color: #20232A; 
-    border: 2px solid #61DAFB;
+    border: 2px solid #29A8E0;
     float: left;
     margin: 10px;
-    float: right;
-    background-color: #61DAFB;
+    margin-top: 0px;
+    float: left;
+    background-color: #29A8E0;
 }
 
-.button:hover {
+.button-formelsamling:hover {
+    color: white;
+}
+
+/** Åbn Script knap **/
+.button-script {
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button-script {
+    color: #20232A; 
+    border: 2px solid #8ACF17;
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+    float: left;
+    background-color: #8ACF17;
+}
+
+.button-script:hover {
     color: white;
 }
 
@@ -54,14 +86,17 @@ p {
 .titel {
   font-size: 2.5em;
   color: #20232A;
-  margin: 30px 0 20px 10px;
+  margin: 30px 0px 20px 10px;
 }
 
 /** Uordnede lister 1C86EE**/
 .ul_li {
   font-size: 1.2em;
   color: #1874CD;
-  margin: 30px 0 5px 10px;
+  margin: 20px;
   text-decoration: none;
 }
+
+
+
 
