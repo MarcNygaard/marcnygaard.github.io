@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Mængdeberegning</h3>
+
+m-Masse-g:<input type="number" id="m"><br>
+M-Molarmasse-g/mol:<input type="number" id="M"><br>
+n-Stofmængde-mol:<input type="number" id="n"><br>
+V-Volumen-Liter:<input type="number" id="V"><br>
+C-Stofmængdekoncentration-mol/Liter:<input type="number" id="C"><br>
+Rho-Densitet-g/cm3 eller g/ml:<input type="number" id="Rho"><br>
+  
+<p>Klik for at få udregnet de manglendene felter.</p>
+
+<button onclick="udregning()">Udregn</button><br><br>
+
+m-Masse-g:<p id="m-out"></p><br>
+M-Molarmasse-g/mol:<p id="M-out"></p><br>
+n-Stofmængde-mol:<p id="n-out"></p><br>
+V-Volumen-Liter:<p id="V-out"></p><br>
+C-Stofmængdekoncentration-mol/Liter:<p id="C-out"></p><br>
+Rho-Densitet-g/cm3 eller g/ml:<p id="Rho-out"></p><br>
+
+<script>
+function udregning() {
+  var m = document.getElementById("m").value;
+  var n = document.getElementById("n").value;
+  var M = document.getElementById("M").value;
+  var V = document.getElementById("V").value;
+  var Rho = document.getElementById("Rho").value;
+  var C = document.getElementById("C").value;
+  
+  
+  /** Udregning af m/Masse **/
+  if (m != 0) {
+    document.getElementById("m-out").innerHTML = m;
+  } else if (M != 0 && n != 0) {
+    var m = M * n;
+    document.getElementById("m-out").innerHTML = m;
+  } else if (Rho != 0 && V != 0) {
+    var m = Rho * V;
+    document.getElementById("m-out").innerHTML = m;
+  }
+  
+  
+  
+  /** Udregning af M/Molarmasse **/
+  if (M != 0) {
+    document.getElementById("M-out").innerHTML = M;
+  } else if (m != 0 && n != 0) {
+    var M = m / n;
+    document.getElementById("M-out").innerHTML = M;
+  }
+  
+  
+  
+  /** Udregning af n/Stofmængde **/
+  if (n != 0) {
+    document.getElementById("n-out").innerHTML = n;
+  } else if (m != 0 && M != 0) {
+    var n = m / M;
+    document.getElementById("n-out").innerHTML = n;
+  } else if (V != 0 && C != 0) {
+    var n = V * C;
+    document.getElementById("n-out").innerHTML = n;
+  }
+  
+  
+  
+  /** Udregning af V/Volumen **/
+  if (V != 0) {
+    document.getElementById("V-out").innerHTML = V;
+  } else if (n != 0 && C != 0) {
+    var V = n / C;
+    document.getElementById("V-out").innerHTML = V;
+  } else if (m != 0 && Rho != 0) {
+    var V = m / Rho;
+    document.getElementById("V-out").innerHTML = V;
+  }
+  
+  
+  
+  /** Udregning af C/Stofmængdekoncentration **/
+  if (C != 0) {
+    document.getElementById("C-out").innerHTML = C;
+  } else if (n != 0 && V != 0) {
+    var C = n / V;
+    document.getElementById("C-out").innerHTML = C;
+  }
+  
+  
+  
+  /** Udregning af Rho **/
+  if (Rho != 0) {
+    document.getElementById("Rho-out").innerHTML = Rho;
+  } else if (m != 0 && V != 0) {
+    var Rho = m / V;
+    document.getElementById("Rho-out").innerHTML = Rho;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  /** Udregning af m/Masse **/
+  if (m != 0) {
+    document.getElementById("m-out").innerHTML = m;
+  } else if (M != 0 && n != 0) {
+    var m = M * n;
+    document.getElementById("m-out").innerHTML = m;
+  } else if (Rho != 0 && V != 0) {
+    var m = Rho * V;
+    document.getElementById("m-out").innerHTML = m;
+  }
+  
+  
+  
+  /** Udregning af M/Molarmasse **/
+  if (M != 0) {
+    document.getElementById("M-out").innerHTML = M;
+  } else if (m != 0 && n != 0) {
+    var M = m / n;
+    document.getElementById("M-out").innerHTML = M;
+  }
+  
+  
+  
+  /** Udregning af n/Stofmængde **/
+  if (n != 0) {
+    document.getElementById("n-out").innerHTML = n;
+  } else if (m != 0 && M != 0) {
+    var n = m / M;
+    document.getElementById("n-out").innerHTML = n;
+  } else if (V != 0 && C != 0) {
+    var n = V * C;
+    document.getElementById("n-out").innerHTML = n;
+  }
+  
+  
+  
+  /** Udregning af V/Volumen **/
+  if (V != 0) {
+    document.getElementById("V-out").innerHTML = V;
+  } else if (n != 0 && C != 0) {
+    var V = n / C;
+    document.getElementById("V-out").innerHTML = V;
+  } else if (m != 0 && Rho != 0) {
+    var V = m / Rho;
+    document.getElementById("V-out").innerHTML = V;
+  }
+  
+  
+  
+  /** Udregning af C/Stofmængdekoncentration **/
+  if (C != 0) {
+    document.getElementById("C-out").innerHTML = C;
+  } else if (n != 0 && V != 0) {
+    var C = n / V;
+    document.getElementById("C-out").innerHTML = C;
+  }
+  
+  
+  
+  /** Udregning af Rho **/
+  if (Rho != 0) {
+    document.getElementById("Rho-out").innerHTML = Rho;
+  } else if (m != 0 && V != 0) {
+    var Rho = m / V;
+    document.getElementById("Rho-out").innerHTML = Rho;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /** Udregning af m/Masse **/
+  if (m != 0) {
+    document.getElementById("m-out").innerHTML = m;
+  } else if (M != 0 && n != 0) {
+    var m = M * n;
+    document.getElementById("m-out").innerHTML = m;
+  } else if (Rho != 0 && V != 0) {
+    var m = Rho * V;
+    document.getElementById("m-out").innerHTML = m;
+  }
+  
+  
+  
+  /** Udregning af M/Molarmasse **/
+  if (M != 0) {
+    document.getElementById("M-out").innerHTML = M;
+  } else if (m != 0 && n != 0) {
+    var M = m / n;
+    document.getElementById("M-out").innerHTML = M;
+  }
+  
+  
+  
+  /** Udregning af n/Stofmængde **/
+  if (n != 0) {
+    document.getElementById("n-out").innerHTML = n;
+  } else if (m != 0 && M != 0) {
+    var n = m / M;
+    document.getElementById("n-out").innerHTML = n;
+  } else if (V != 0 && C != 0) {
+    var n = V * C;
+    document.getElementById("n-out").innerHTML = n;
+  }
+  
+  
+  
+  /** Udregning af V/Volumen **/
+  if (V != 0) {
+    document.getElementById("V-out").innerHTML = V;
+  } else if (n != 0 && C != 0) {
+    var V = n / C;
+    document.getElementById("V-out").innerHTML = V;
+  } else if (m != 0 && Rho != 0) {
+    var V = m / Rho;
+    document.getElementById("V-out").innerHTML = V;
+  }
+  
+  
+  
+  /** Udregning af C/Stofmængdekoncentration **/
+  if (C != 0) {
+    document.getElementById("C-out").innerHTML = C;
+  } else if (n != 0 && V != 0) {
+    var C = n / V;
+    document.getElementById("C-out").innerHTML = C;
+  }
+  
+  
+  
+  /** Udregning af Rho **/
+  if (Rho != 0) {
+    document.getElementById("Rho-out").innerHTML = Rho;
+  } else if (m != 0 && V != 0) {
+    var Rho = m / V;
+    document.getElementById("Rho-out").innerHTML = Rho;
+  }
+}
+  
+  
+  
+  
+  
+  
+  
+
+
+</script>
+
+</body>
+</html>
+
+
