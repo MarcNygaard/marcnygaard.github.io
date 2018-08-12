@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../css/normalize.css">
+<link rel="stylesheet" href="../../css/main.css">
+<style>
+
+ /** Her er skrifttypen **/
+
+  h1, h2, h3, h4, h5, h6, p, a, span, table {
+  font-family: 'Roboto', sans-serif;
+}   
+  
+body {
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2D3037;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #61DAFB;
+    transition: 0.75s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    padding-bottom: 20px;
+}
+  
+#main {
+    background-color: #20232A;
+    color: #FFFFFF;
+    border-bottom-style: solid;
+    border-color: #61DAFB;
+    border-width: 2px;
+  }
+  
+#portfolio {
+  float: right;
+  margin-right: 45%;
+  font-size: 2.25em;
+}  
+  
+#navbar-open:hover {
+    color: #61DAFB;
+    transition: 0.75s;
+  }
+  
+  
+  th {
+    padding: 7.5px;
+  }
+  
+td {
+    padding: 7.5px;
+  }
+  
+  th, td {
+    width: 180px;
+    height: 27.5px;
+}
+  
+table {
+    background-color: #EEE9E9;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 7.5px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+  .button2 {
+    background-color: white; 
+    color: #20232A; 
+    border: 2px solid #696969;
+    float: left;
+    margin-right: 100%;
+    margin-bottom: 75px;
+}
+  
+.button2:hover {
+    background-color: #696969;
+    color: white;
+}
+  
+  
+  
+  
+  
+  
+  
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../skole.html"><b>Tilbage</b></a>
+</div>
+
+<div id="main">
+  <h1 id="portfolio"><b>Portfolio</b></h1>
+    
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="navbar-open">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+  <div id="main2">
+    <section style="margin-right: 15px;">
+      <h2>Energi</h2>
+
+<p style="float: right"><b style="color: white; margin-top: 0px;">l</b></p>
+<table style="float: right">
+        <tr>
+          <th style="color: #EEE9E9;">l</th>
+          <th style="font-size: 2em; color: #4286f4"><b>Energi</b></th>
+        </tr>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>E</center></td>
+          <td><center>Joule</center></td>
+          <td><center>Energi (J)</center></td>
+        </tr>
+        <tr>
+          <td><center>kJ</center></td>
+          <td><center>Kilojoule <br>1kJ = 1.000 J</center></td>
+          <td><center>Energi (kJ)</center></td>
+        </tr>
+        <tr>
+          <td><center>MJ</center></td>
+          <td><center>Megajoule <br>1MJ = 1.000.000 J</center></td>
+          <td><center>Energi (MJ)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <th style="color: #EEE9E9;">l</th>
+          <th style="font-size: 2em; color: #4286f4"><b>Effekt</b></th>
+        </tr>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>P</center></td>
+          <td><center>Joule pr. sekund <br>effekt = energi/tid <br>P = E/t</center></td>
+          <td><center>Effekt (J/s)</center></td>
+        </tr>
+        <tr>
+          <td><center>t</center></td>
+          <td><center>Tid</center></td>
+          <td><center>Sekund (s)</center></td>
+        </tr>
+        <tr>
+          <td><center>W</center></td>
+          <td><center>Watt <br>1 J/s = 1 W</center></td>
+          <td><center>Watt (W)</center></td>
+        </tr>
+        <tr>
+          <td><center>Wh</center></td>
+          <td><center>Watt-time <br>1 Wh = 1 W × 3.600s <br>= 3.600 J</center></td>
+          <td><center>Watt-time (Wh)</center></td>
+        </tr>
+        <tr>
+          <td><center>kWh</center></td>
+          <td><center>Kilowatt-time <br>1 kWh = 1.000 W × 3.600s = 3.600.000 J</center></td>
+          <td><center>Kilowatt-time (kWh)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <th style="color: #EEE9E9;">l</th>
+          <th style="font-size: 2em; color: #4286f4"><b>Varmekapacitet</b></th>
+        </tr>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>C <br><a href="..." style="color: #4286f4">Tabel</a></center></td>
+          <td><center>Varmekapacitet <br>C = Q/Δt <br>C = m × c</center></td>
+          <td><center>Varmekapaciteten (C)</center></td>
+        </tr>
+        <tr>
+          <td><center>Δ</center></td>
+          <td><center>Delta <br>= forøgelsen eller tilvæksten</center></td>
+          <td><center>Delta (Δ)</center></td>
+        </tr>
+        <tr>
+          <td><center>Δt</center></td>
+          <td><center>Temperaturstigning</center></td>
+          <td><center>Temperaturstigning (Δt)</center></td>
+        </tr>
+        <tr>
+          <td><center>Q</center></td>
+          <td><center>Varmetilførsel <br>Q = C × Δt <br>Q = m × c × Δt</center></td>
+          <td><center>Tilførte varmeenergi (Q)</center></td>
+        </tr>
+        <tr>
+          <td><center>A</center></td>
+          <td><center>Arbejde udført</center></td>
+          <td><center>Arbejde udført (A)</center></td>
+        </tr>
+        <tr>
+          <td><center>ΔE</center></td>
+          <td><center>Forøgelsen i energi <br>ΔE = Q + A</center></td>
+          <td><center>Energiforøgelse (ΔE)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <th style="color: #EEE9E9;">l</th>
+          <th style="font-size: 2em; color: #4286f4"><b>Specifik varmekapacitet</b></th>
+        </tr>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>c</center></td>
+          <td><center>Specifik varmekapacitet <br>c = C/m</center></td>
+          <td><center>Specifik varmekapacitet (c)</center></td>
+        </tr>
+        <tr>
+          <td><center>m</center></td>
+          <td><center>Masse</center></td>
+          <td><center>Kilo (kg)</center></td>
+        </tr>
+        <tr>
+          <td><center>ΔE<sub>indre</sub></center></td>
+          <td><center>(Legemets tilvækst i den indre energi) <br>ΔE<sub>indre</sub> = Q <br>ΔE<sub>indre</sub> = m × c × Δt</center></td>
+          <td><center>(ΔE<sub>indre</sub>)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <th style="color: #EEE9E9;">l</th>
+          <th style="font-size: 2em; color: #4286f4"><b>Tilstandsformer</b></th>
+        </tr>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>L<sub>s</sub><br><a href="..." style="color: #4286f4">Tabel</a></center></td>
+          <td><center>Specifik smeltevarme <br>(Fast stof til væske)</center></td>
+          <td><center>Specifik smeltevarme (kJ/kg)</center></td>
+        </tr>
+        <tr>
+          <td><center>L<sub>f</sub><br><a href="..." style="color: #4286f4">Tabel</a></center></td>
+          <td><center>Specifik fordampningsvarme <br>(Væske til damp)</center></td>
+          <td><center>Specifik fordampningsvarme (kJ/kg)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <th style="color: #EEE9E9;">l</th>
+          <th style="font-size: 2em; color: #4286f4"><b>Nyttevirkning</b></th>
+        </tr>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>η</center></td>
+          <td><center>Eta <br>η = E<sub>udnyttet</sub>/E<sub>tilført</sub></center></td>
+          <td><center>Nyttevirkningen (η)</center></td>
+        </tr>
+        
+      </table>
+
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+     
+      
+      
+      
+      
+      
+      
+      
+<!-- 
+
+    Energi 
+
+-->     
+      
+<!-- Input: Joule -->   
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>E</center></td>
+          <td><center>Joule</center></td>
+          <td><center>Energi (J)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="J" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+<!-- Input: Kilojoule -->    
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>kJ</center></td>
+          <td><center>Kilojoule</center></td>
+          <td><center>Energi (kJ)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="kJ" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+<!-- Input: Megajoule -->    
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>MJ</center></td>
+          <td><center>Megajoule</center></td>
+          <td><center>Energi (MJ)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="MJ" value=""></center></td>
+        </tr>
+      </table><br>
+      
+<p><b>Klik for at få udregnet de manglendene felter.</b></p><br>
+      
+<button onclick="nr_en()" class="button button2" style="margin: auto;"><b>Udregn</b></button><br><br>    
+   
+ 
+    
+<!-- 
+
+    Energi udregn
+
+-->
+      
+<script>
+function nr_en() {
+  
+  if (document.getElementById("J").value != 0) {
+    
+    var J = document.getElementById("J").value;
+    
+    
+    
+    document.getElementById("J").value = J;
+    
+    var kJ = J / 1000;
+    document.getElementById("kJ").value = kJ;
+    
+    var MJ = J / 1000000;
+    document.getElementById("MJ").value = MJ;
+    
+  } 
+  
+  
+  
+  
+  
+  else if (document.getElementById("kJ").value != 0) {
+    
+    var kJ = document.getElementById("kJ").value;
+    
+    
+    
+    document.getElementById("kJ").value = kJ;
+    
+    var J = document.getElementById("kJ").value * 1000;
+    document.getElementById("J").value = J;
+    
+    var MJ = document.getElementById("kJ").value / 1000;
+    document.getElementById("MJ").value = MJ;
+  }
+  
+  
+  
+  
+  
+  else if (document.getElementById("MJ").value != 0) {
+    
+    var MJ = document.getElementById("MJ").value;
+    
+    
+    
+    document.getElementById("MJ").value = MJ;
+    
+    var J = document.getElementById("MJ").value * 1000000;
+    document.getElementById("J").value = J;
+    
+    var kJ = document.getElementById("MJ").value * 1000;
+    document.getElementById("kJ").value = kJ;
+  }
+}
+</script>
+   
+    
+      
+      
+      
+<!-- 
+
+    Effekt 
+
+-->     
+      
+<!-- Input: Joule -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>Effekt</h2>  
+      
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>E</center></td>
+          <td><center>Joule = P × t</center></td>
+          <td><center>Joule (J)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="E" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>t</center></td>
+          <td><center>Tid = E / P</center></td>
+          <td><center>Sekund (s)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="t" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>P</center></td>
+          <td><center>Effekt = E / t</center></td>
+          <td><center>Joule pr. sekund (J/s)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="P" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>W</center></td>
+          <td><center>Watt = P</center></td>
+          <td><center>Watt (W)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="W" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>Wh</center></td>
+          <td><center>Watt-time = P × 3.600s</center></td>
+          <td><center>Watt-time (Wh)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="Wh" value=""></center></td>
+        </tr>
+      </table><br>
+      
+      
+      
+      
+      
+      <table>
+        <tr>
+          <th>Symbol</th>
+          <th>Navn/Formel</th>
+          <th>Enhed</th>
+        </tr>
+        <tr>
+          <td><center>kWh</center></td>
+          <td><center>Kilowatt-time = P × 1.000 × 3.600s</center></td>
+          <td><center>Kilowatt-time (kWh)</center></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><center><b>Input/Output:</b></center></td>
+          <td><center><input type="number" id="kWh" value=""></center></td>
+        </tr>
+      </table><br>
+      
+<p><b>Klik for at få udregnet de manglendene felter.</b></p><br>
+      
+<button onclick="nr_to()" class="button button2" style="margin: auto;"><b>Udregn</b></button><br><br>
+      
+<script>
+function nr_to() {
+  
+  
+  
+  
+  
+/** Udregning af E **/
+  
+  if (document.getElementById("E").value != 0) {
+    
+    var E = document.getElementById("E").value;
+    
+    
+    
+    document.getElementById("E").value = E;
+  } 
+  
+  else if (document.getElementById("P").value != 0 && document.getElementById("t").value != 0) {
+    
+  
+    
+    var E = document.getElementById("P").value * document.getElementById("t").value;
+    document.getElementById("E").value = E;
+  
+  }
+  
+  
+  
+  
+  
+/** Udregning af t **/
+  
+  if (document.getElementById("E").value != 0 && document.getElementById("P").value != 0) {
+    var t = document.getElementById("E").value / document.getElementById("P").value;
+    document.getElementById("t").value = t;
+  }
+  
+  
+  
+  
+  
+/** Udregning af P **/
+  
+  if (document.getElementById("E").value != 0 && document.getElementById("t").value != 0) {
+    var P = document.getElementById("E").value / document.getElementById("t").value;
+    document.getElementById("P").value = P;
+  } else if (document.getElementById("W").value != 0) {
+    var P = document.getElementById("W").value;
+    document.getElementById("P").value = P;
+  } else if (document.getElementById("Wh").value != 0) {
+    var P = document.getElementById("Wh").value * 3600;
+    document.getElementById("P").value = P;
+  } else if (document.getElementById("kWh").value != 0) {
+    var P = document.getElementById("kWh").value * 3600 * 1000;
+    document.getElementById("P").value = P;
+  }
+  
+  
+  
+  
+  
+/** Udregning af W **/
+  
+  if (document.getElementById("P").value != 0) {
+    var W = document.getElementById("P").value;
+    document.getElementById("W").value = W;
+  } else if (document.getElementById("Wh").value != 0) {
+    var W = document.getElementById("Wh").value * 3600;
+    document.getElementById("W").value = W;
+  } else if (document.getElementById("kWh").value != 0) {
+    var W = document.getElementById("kWh").value * 3600 * 1000;
+    document.getElementById("W").value = W;
+  }
+  
+  
+  
+  
+  
+/** Udregning af Wh **/
+  
+  if (document.getElementById("W").value != 0) {
+    var Wh = document.getElementById("W").value / 3600;
+    document.getElementById("Wh").value = Wh;
+  } else if (document.getElementById("kWh").value != 0) {
+    var Wh = document.getElementById("kWh").value * 1000;
+    document.getElementById("Wh").value = Wh;
+  }
+  
+  
+  
+  
+  
+/** Udregning af kWh **/
+  
+  if (document.getElementById("W").value != 0) {
+    var kWh = document.getElementById("W").value / 3600 / 1000;
+    document.getElementById("kWh").value = kWh;
+  } else if (document.getElementById("Wh").value != 0) {
+    var kWh = document.getElementById("Wh").value / 1000;
+    document.getElementById("kWh").value = kWh;
+  }
+  
+}
+
+</script>    
+      
+      
+      
+      
+      
+      
+
+    </section>  
+        <footer>
+
+        </footer>
+      </div>
+</body>
+</html> 
