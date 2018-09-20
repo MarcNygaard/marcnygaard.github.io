@@ -1,0 +1,67 @@
+/* Baggrund */
+.baggrund {
+    height: 1080px;
+    background-image: url("../img/Marc-Portfolio_Baggrund_Lys.svg");
+    background-size:100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Skrifttype på navigationsbaren */
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+/* Skrifttype på hele siden background-color: #2B2D31; */
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  color: #323437;
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+
+
+.skole {
+  background-color: #2B2D31;
+  padding: 20px 10px 40px 10px;
+}
+
+
+
+
+/* Centrer ul og giv margin til siderne */
+ul {
+  margin: 0 auto;
+}
+
+ul li {
+  margin: 0 30px;
+}
+
+/* Navbar padding og margin */
+.row {
+  padding-bottom: 0px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+/* Bootstrap a link (.nav-link) farver */
+.nav-link {
+  color: #D4DDF8;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+}
